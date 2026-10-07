@@ -1,0 +1,48 @@
+{
+  "Configuration A (Behavioral)": {
+    "Decision Tree": {
+      "cv_accuracy_mean": 0.9567825568289157,
+      "cv_accuracy_std": 0.003931536965682045,
+      "cv_f1_weighted_mean": 0.9568778693305472,
+      "cv_f1_weighted_std": 0.00391272293223444,
+      "cv_f1_macro_mean": 0.9568780618828235
+    },
+    "Random Forest": {
+      "cv_accuracy_mean": 0.9667340115939691,
+      "cv_accuracy_std": 0.0032130699363869986,
+      "cv_f1_weighted_mean": 0.9668592318558975,
+      "cv_f1_weighted_std": 0.0031906835314931374,
+      "cv_f1_macro_mean": 0.9668593045901759
+    },
+    "XGBoost": {
+      "cv_accuracy_mean": 0.9775153839785865,
+      "cv_accuracy_std": 0.002210585280793124,
+      "cv_f1_weighted_mean": 0.9775222480313334,
+      "cv_f1_weighted_std": 0.0022132053666799735,
+      "cv_f1_macro_mean": 0.977522639307826
+    }
+  },
+  "Configuration B (Contextual)": {
+    "Decision Tree": {
+      "cv_accuracy_mean": 0.7536857232008864,
+      "cv_accuracy_std": 0.013400164545817606,
+      "cv_f1_weighted_mean": 0.7567080425272154,
+      "cv_f1_weighted_std": 0.014395780492473288,
+      "cv_f1_macro_mean": 0.7567080835912934
+    },
+    "Random Forest": {
+      "cv_accuracy_mean": 0.7734984196796058,
+      "cv_accuracy_std": 0.01461951169956793,
+      "cv_f1_weighted_mean": 0.7765080050207109,
+      "cv_f1_weighted_std": 0.014050011194477388,
+      "cv_f1_macro_mean": 0.7765057321081071
+    },
+    "XGBoost": {
+      "cv_accuracy_mean": 0.7805012873933098,
+      "cv_accuracy_std": 0.011844509062444194,
+      "cv_f1_weighted_mean": 0.7835426768145788,
+      "cv_f1_weighted_std": 0.011478263518059287,
+      "cv_f1_macro_mean": 0.7835403167603747
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Feature Configuration,Model,CV Accuracy (Mean),CV Accuracy (Std),CV Weighted F1 (Mean),Accuracy,Precision (Weighted),Precision (Macro),Recall (Weighted),Recall (Macro),Weighted F1,Macro F1
+Configuration A (Behavioral),Decision Tree,0.9568,0.0039,0.9569,0.9521,0.9523,0.9524,0.9521,0.9521,0.9522,0.9522
+Configuration A (Behavioral),Random Forest,0.9667,0.0032,0.9669,0.9646,0.9652,0.9652,0.9646,0.9646,0.9648,0.9648
+Configuration A (Behavioral),XGBoost,0.9775,0.0022,0.9775,0.9783,0.9783,0.9783,0.9783,0.9783,0.9783,0.9783
+Configuration B (Contextual),Decision Tree,0.7537,0.0134,0.7567,0.7368,0.7426,0.7427,0.7368,0.7369,0.7392,0.7392
+Configuration B (Contextual),Random Forest,0.7735,0.0146,0.7765,0.7619,0.7719,0.7719,0.7619,0.7619,0.7653,0.7653
+Configuration B (Contextual),XGBoost,0.7805,0.0118,0.7835,0.7663,0.778,0.7781,0.7663,0.7663,0.7697,0.7697

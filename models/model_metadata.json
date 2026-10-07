@@ -1,0 +1,190 @@
+{
+  "model_name": "XGBoost",
+  "feature_configuration": "Configuration A (Behavioral)",
+  "training_date": "2026-10-07",
+  "training_samples": 10852,
+  "testing_samples": 2713,
+  "features_list": [
+    "application",
+    "total_accesses",
+    "read_count",
+    "write_count",
+    "read_ratio",
+    "accesses_last_5_min",
+    "access_frequency",
+    "average_access_interval",
+    "median_access_interval",
+    "days_since_last_access",
+    "seconds_since_last_access",
+    "first_access_timestamp",
+    "last_access_timestamp",
+    "file_age_days",
+    "activity_span_days",
+    "activity_span_seconds",
+    "average_request_io_size",
+    "median_request_io_size",
+    "total_request_io_bytes",
+    "average_response_io_size",
+    "total_response_io_bytes",
+    "average_disk_io_size",
+    "total_disk_io_bytes",
+    "cache_hit_count",
+    "cache_miss_count",
+    "cache_hit_ratio",
+    "flash_cache_ratio",
+    "dominant_service_class",
+    "dominant_redundancy_type",
+    "estimated_file_size_bytes_proxy"
+  ],
+  "class_names": [
+    "ARCHIVE",
+    "COOL",
+    "HOT"
+  ],
+  "evaluation_metrics": {
+    "accuracy": 0.9783,
+    "precision_weighted": 0.9783,
+    "recall_weighted": 0.9783,
+    "f1_weighted": 0.9783,
+    "f1_macro": 0.9783,
+    "cv_accuracy_mean": 0.9775,
+    "cv_f1_weighted_mean": 0.9775
+  },
+  "random_seed": 42,
+  "top_10_features_random_forest": [
+    {
+      "feature": "total_accesses",
+      "importance": 0.11051452915285502
+    },
+    {
+      "feature": "access_frequency",
+      "importance": 0.10494571253383801
+    },
+    {
+      "feature": "activity_span_days",
+      "importance": 0.0729635070786616
+    },
+    {
+      "feature": "seconds_since_last_access",
+      "importance": 0.07019632208238001
+    },
+    {
+      "feature": "last_access_timestamp",
+      "importance": 0.06816643147859179
+    },
+    {
+      "feature": "days_since_last_access",
+      "importance": 0.06342904927504156
+    },
+    {
+      "feature": "accesses_last_5_min",
+      "importance": 0.06177195069731658
+    },
+    {
+      "feature": "activity_span_seconds",
+      "importance": 0.058989414718442684
+    },
+    {
+      "feature": "average_access_interval",
+      "importance": 0.04894316693508008
+    },
+    {
+      "feature": "first_access_timestamp",
+      "importance": 0.04467307426116868
+    }
+  ],
+  "top_10_features_xgboost": [
+    {
+      "feature": "accesses_last_5_min",
+      "importance": 0.33769431710243225
+    },
+    {
+      "feature": "total_accesses",
+      "importance": 0.21371421217918396
+    },
+    {
+      "feature": "last_access_timestamp",
+      "importance": 0.06922220438718796
+    },
+    {
+      "feature": "days_since_last_access",
+      "importance": 0.04597717896103859
+    },
+    {
+      "feature": "application_b5b4908459d349a16a0416b1c5d6e79e5b3324491c9e08999a6f2630e1abfebb",
+      "importance": 0.040988463908433914
+    },
+    {
+      "feature": "read_count",
+      "importance": 0.03060186468064785
+    },
+    {
+      "feature": "total_request_io_bytes",
+      "importance": 0.029264425858855247
+    },
+    {
+      "feature": "cache_hit_ratio",
+      "importance": 0.026883075013756752
+    },
+    {
+      "feature": "activity_span_seconds",
+      "importance": 0.026422223076224327
+    },
+    {
+      "feature": "cache_hit_count",
+      "importance": 0.026125364005565643
+    }
+  ],
+  "top_10_permutation_importance": [
+    {
+      "feature": "total_accesses",
+      "importance_mean": 0.38149649834131955,
+      "importance_std": 0.006939002801769305
+    },
+    {
+      "feature": "days_since_last_access",
+      "importance_mean": 0.2057500921489126,
+      "importance_std": 0.008534879845724328
+    },
+    {
+      "feature": "cache_hit_count",
+      "importance_mean": 0.07578326575746405,
+      "importance_std": 0.0037560602146279433
+    },
+    {
+      "feature": "activity_span_days",
+      "importance_mean": 0.03943973461113155,
+      "importance_std": 0.0009324814331495545
+    },
+    {
+      "feature": "accesses_last_5_min",
+      "importance_mean": 0.031330630298562465,
+      "importance_std": 0.0032720001505598204
+    },
+    {
+      "feature": "cache_hit_ratio",
+      "importance_mean": 0.015333579063767023,
+      "importance_std": 0.001784551188633999
+    },
+    {
+      "feature": "last_access_timestamp",
+      "importance_mean": 0.011057869517139695,
+      "importance_std": 0.0019223597214014572
+    },
+    {
+      "feature": "activity_span_seconds",
+      "importance_mean": 0.009730925175082939,
+      "importance_std": 0.0024069041971713236
+    },
+    {
+      "feature": "average_disk_io_size",
+      "importance_mean": 0.007814227792112072,
+      "importance_std": 0.0007517905659554471
+    },
+    {
+      "feature": "average_access_interval",
+      "importance_mean": 0.003907113896056025,
+      "importance_std": 0.000551663455477174
+    }
+  ]
+}
