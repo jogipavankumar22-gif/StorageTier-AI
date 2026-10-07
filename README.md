@@ -33,6 +33,7 @@ An end-to-end Data Mining and Artificial Intelligence system that classifies ent
 14. [Personalized Recommendation for New Files](#14-personalized-recommendation-for-new-files)
 15. [Generative AI Layer](#15-generative-ai-layer)
 16. [Web Application Pages](#16-web-application-pages)
+   - [Screenshots](#screenshots)
 17. [Technology Stack](#17-technology-stack)
 18. [Project Structure](#18-project-structure)
 19. [Installation](#19-installation)
@@ -379,6 +380,16 @@ The frontend provides **8 dedicated views**:
 6. **How It Works (`/how-it-works`):** Educational step-by-step walkthrough detailing trace aggregation, index formulas, classification boundaries, and architecture.
 7. **AI Assistant (`/ai-assistant`):** Interactive project-aware research chatbot capable of explaining features, anomalies, and storage tier concepts.
 8. **Storage Optimization (`/optimization`):** Analysis view highlighting misallocated storage candidates (e.g., Hot files with high inactivity) and migration rationale.
+
+### Screenshots
+
+**System pipeline walkthrough**
+
+![System architecture and pipeline walkthrough](screenshots/how-it-works.png)
+
+**Machine learning performance dashboard**
+
+![ML model performance and evaluation](screenshots/model-performance.png)
 
 ---
 
